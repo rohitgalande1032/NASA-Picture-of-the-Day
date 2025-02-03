@@ -12,6 +12,7 @@ img {
     object-fit: cover;
 }
 
+
 .image-sec {
     width: 95%;
     margin: auto;
@@ -34,3 +35,11 @@ li {
     cursor: pointer;
 }
 
+@media (max-width: 578px) {
+    img {
+        height: 400px;
+    }
+    .image-sec{
+        margin-top: 0px;
+    }
+}
